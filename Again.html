@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Join Now - Cloth Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family:'Inter', sans-serif;
+      margin:0;
+      padding:0;
+      background: linear-gradient(120deg, #92dc80 0%, #d2d2d2 100%);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+    }
+    .container {
+      display:flex;
+      flex-wrap:wrap;
+      background:#fff;
+      border-radius:20px;
+      overflow:hidden;
+      box-shadow:0 10px 40px rgba(0,0,0,0.1);
+      width:850px;
+      max-width:95%;
+    }
+    .left {
+      flex:1;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:#f8f8f8;
+    }
+    .left img {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+    .right {
+      flex:1;
+      padding:50px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+    }
+    h2 {
+      margin-bottom:20px;
+      font-size:28px;
+      color:#333;
+    }
+    p {
+      margin-bottom:24px;
+      color:#666;
+      font-size:14px;
+    }
+    input {
+      width:100%;
+      padding:12px;
+      margin-bottom:16px;
+      border-radius:10px;
+      border:1px solid #ddd;
+      font-size:14px;
+      transition:0.2s;
+    }
+    input:focus {
+      border-color:#92dc80;
+      outline:none;
+      box-shadow:0 0 6px rgba(146,220,128,0.4);
+    }
+    button {
+      width:100%;
+      padding:14px;
+      border:none;
+      border-radius:12px;
+      background:linear-gradient(135deg,#92dc80,#8ea790);
+      color:#fff;
+      font-weight:700;
+      font-size:16px;
+      cursor:pointer;
+      transition:transform 0.2s, box-shadow 0.2s;
+    }
+    button:hover {
+      transform:scale(1.05);
+      box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    }
+    .back {
+      margin-top:16px;
+      text-align:center;
+      display:block;
+      text-decoration:none;
+      color:#8ea790;
+      font-weight:600;
+    }
+
+    /* Responsive */
+    @media (max-width:768px) {
+      .container {
+        flex-direction:column;
+        height:auto;
+      }
+      .left {
+        height:250px;
+      }
+      .right {
+        padding:30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <img src="-473Wx593H-700412130-white-MODEL.avif" alt="Fashion Model">
+    </div>
+    <div class="right">
+      <h2>Join the Style Club</h2>
+      <p>Create your account and unlock exclusive deals & new arrivals first.</p>
+      <input type="text" placeholder="Full Name" />
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+      <button onclick="window.location.href='Testinchatgpt'">Join Now</button>
+      <a href="Testinchatgpt.html" class="back">Sign in</a>
+      <a href="Testinchatgpt.html" class="back">← Back to Home</a>
+    </div>
+  </div>
+</body>
+</html>
